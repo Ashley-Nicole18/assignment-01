@@ -1,0 +1,21 @@
+body {
+    background-color: #00CED1;
+}
+
+#randomUserNumber {
+    padding: 20px;
+    width: 400px;
+    margin: 50px auto;
+    display: block;
+    background-color: #AFEEEE;
+    border: none;
+    border-radius: 20px
+}
+
+#name-header select {
+    background-color: transparent;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
