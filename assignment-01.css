@@ -13,9 +13,9 @@ body {
 }
 
 #name-header select {
-    background-color: transparent;
-    border: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none;
+    outline: unset;
+    border: none;
+    font-weight: bold;
 }
