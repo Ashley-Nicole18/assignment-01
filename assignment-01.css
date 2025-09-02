@@ -1,5 +1,6 @@
 body {
     background-color: #00CED1;
+    font-family: Arial, sans-serif;
 }
 
 #randomUserNumber {
@@ -18,4 +19,28 @@ body {
     outline: unset;
     border: none;
     font-weight: bold;
+}
+
+tr {
+    cursor: pointer;
+}
+
+.modal-content {
+    padding: 15px;
+}
+
+.user-info-container{
+    text-align: center;
+}
+
+.user-info-container p span {
+    height: 50px;
+    width: 200px;
+    background-color: orange;
+}
+
+span {
+    padding: 15px;
+    background-color: #f3f8f7;
+    border-radius: 15px;
 }
