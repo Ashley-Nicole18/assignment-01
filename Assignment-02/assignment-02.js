@@ -14,12 +14,12 @@ function fetchUsers() {
         showError("Please enter a valid number from 1 to 1000.");
         return;
     }
-    const url = `https://randomuser.me/api/?results=${count}&inc=name,gender,location,email,phone,cell,dob,picture`;
+    const url = `/api?results=${count}`;
 
     fetch(url)
         .then(response => {
             if (!response.ok) {
-                throw new Error("Failed to fetch users. Please try again.");
+                showError("Failed to fetch users. Please try again.");
             }
             return response.json();
         })
